@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  color: #c9d1d9 !important;
+  background-color: #161b22;
+  font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.head {
+  margin-top: 10px;
+  margin-left: 16%;
+  font-size: 35px;
+  border-bottom: 2px solid orangered;
+  width: fit-content;
+  border-width: 3px;
+  padding: 5px;
+}
+.Box-header {
+  margin: auto;
+  /* width: fit-content; */
+  margin-left: 15%;
+  margin-right: 6%;
+  padding: 10px;
+}
+.main {
+  fill: #8b949e;
+}
+.sub {
+  fill: #3fb950;
+  margin:auto;
+}
+
+button {
+  min-width: 32px;
+  padding: 5px 10px;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+button:hover {
+  border-radius: 10px;
+  background-color: #1f6feb;
+  border: 2px solid white;
+}
+
+a {
+  font-size: 20px;
+}
+li a{
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  margin:auto ;
+  min-width: 32px;
+  padding: 5px 10px;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 6px;
+  transition: border-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+.flex{
+    display: flex;
+    border: 1px solid #30363d;
+    padding: 20px;
+}
